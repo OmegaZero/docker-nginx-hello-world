@@ -107,4 +107,9 @@ Reference: [Use IAM Roles to Connect Github Actions in AWS](https://aws.amazon.c
            - Source: Anywhere
        - Public IP is enabled
        - Click Create
-     
+
+After this, the GitHub Action workflow just needs to be modified. The workflow provided in .github/workflows/aws.yml should work with the above settings, however the value 
+```
+role-to-assume: arn:aws:iam::590183971879:role/GitHub
+```
+needs to be changed to the ARN of the role created in Step 2 above
