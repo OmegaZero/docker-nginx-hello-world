@@ -115,3 +115,5 @@ After this, the GitHub Action workflow just needs to be modified. The workflow p
 role-to-assume: arn:aws:iam::590183971879:role/GitHub
 ```
 needs to be changed to the ARN of the role created in Step 2 above
+
+If you have issues please review this excellent tutorial [here](https://www.youtube.com/watch?v=mdFOohfheJc&t=101s&ab_channel=CloudArchitectRahul)
