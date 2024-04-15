@@ -18,7 +18,9 @@ Now, assuming we found out the IP address and the port that mapped to port 80 on
 
 Reference: [Docker & Kubernetes](http://bogotobogo.com/DevOps/Docker/Docker_Kubernetes.php)
 
-### This repo has been modified to allow for pushing to Amazon AWS ECS.  In order to do this the following changes had to be implemented in AWS:
+<br>
+
+### I've modified this repo for pushing to Amazon AWS ECS. The following changes must be implemented in AWS:
 Reference: [Use IAM Roles to Connect Github Actions in AWS](https://aws.amazon.com/blogs/security/use-iam-roles-to-connect-github-actions-to-actions-in-aws/)
 1) IAM --> Access Management --> Identity Providers
    - Add Provider
